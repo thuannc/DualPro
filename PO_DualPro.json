@@ -1,9 +1,9 @@
 {
-    "id": "7655",
+    "id": "1",
     "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOffering/7655",
-    "name": "Basic Firewall for Business",
-    "description": "This product offering suggests a firewall service that can be deployed in business customer premise.",
-    "version": "2.1",
+    "name": "Dual Pro",
+    "description": "This product offering DualPro.",
+    "version": "1.0",
     "validFor": {
       "startDateTime": "2020-09-23T00:00:00Z",
       "endDateTime": "2021-08-25T00:00:00Z"
@@ -15,6 +15,18 @@
     "statusReason": "Released for sale",
     "place": [],
     "serviceLevelAgreement": {},
+    "channel": [],
+    "serviceCandidate": {},
+    "category": [],
+    "resourceCandidate": {},
+    "productOfferingTerm": [],
+    "agreement": [],
+    "attachment": [],
+    "marketSegment": [],
+    "bundledProductOffering": [],
+    "productOfferingRelationship": [],
+    "prodSpecCharValueUse": [],
+    
     "productSpecification": {
       "id": "9881",
       "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/9881",
@@ -25,11 +37,6 @@
       "@baseType": "",
       "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
     },
-    "channel": [],
-    "serviceCandidate": {},
-    "category": [],
-    "resourceCandidate": {},
-    "productOfferingTerm": [],
     "productOfferingPrice": [
       {
         "id": "1747",
@@ -39,79 +46,6 @@
         "@type": "ProductOfferingPriceRefOrValue",
         "@baseType": "",
         "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOfferingPriceRefOrValue.schema.json"
-      }
-    ],
-    "agreement": [],
-    "attachment": [],
-    "marketSegment": [],
-    "bundledProductOffering": [],
-    "productOfferingRelationship": [
-      {
-        "id": "331",
-        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOffering/331",
-        "relationshipType": "DependsOn",
-        "validFor": {
-          "startDateTime": "2020-09-23T16:42:23.0Z"
-        },
-        "role": "A-Role",
-        "name": "Carrier Grade NAT",
-        "@referredType": "ProductOffering",
-        "@type": "ProductOfferingRelationship",
-        "@baseType": "",
-        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOfferingRelationship.schema.json"
-      }
-    ],
-    "prodSpecCharValueUse": [
-      {
-        "name": "Number of Ports",
-        "id": "3331",
-        "description": "The total Number of Ports for this product",
-        "valueType": "number",
-        "minCardinality": 1,
-        "maxCardinality": 1,
-        "validFor": {
-          "startDateTime": "2020-09-23T00:00:00Z",
-          "endDateTime": "2021-09-23T00:00:00Z"
-        },
-        "@type": "ProductSpecificationCharacteristicValueUse",
-        "@baseType": "",
-        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationCharacteristicValueUse.schema.json",
-        "productSpecCharacteristicValue": [
-          {
-            "isDefault": true,
-            "valueType": "number",
-            "validFor": {
-              "startDateTime": "2020-09-23T00:00:00Z",
-              "endDateTime": "2021-09-23T00:00:00Z"
-            },
-            "value": 8,
-            "@type": "CharacteristicValueSpecification",
-            "@baseType": "",
-            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
-          },
-          {
-            "isDefault": false,
-            "valueType": "number",
-            "validFor": {
-              "startDateTime": "2020-09-23T00:00:00Z",
-              "endDateTime": "2021-09-23T00:00:00Z"
-            },
-            "value": 16,
-            "@type": "CharacteristicValueSpecification",
-            "@baseType": "",
-            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
-          }
-        ],
-        "productSpecification": {
-          "id": "9881",
-          "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/9881",
-          "version": "1.1",
-          "name": "Robotics999",
-          "@referredType": "DeviceSpecification",
-          "@type": "ProductSpecificationRef",
-          "@baseType": "",
-          "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
-        }
       }
     ],
     "@type": "ProductOffering",
